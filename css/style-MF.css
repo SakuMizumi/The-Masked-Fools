@@ -1,0 +1,184 @@
+body{
+	font-family: "Lucida handwriting";
+	font-size:18px;
+	color: #f0c24f;
+	padding-left:3%;
+	padding-right:3%;
+	background-image: linear-gradient(to bottom right, #de2c2c, #5e1111);
+	background-attachment: fixed;
+}
+
+.title{
+	font-size:30px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+}
+
+.aha{
+	border-style:outset;
+	border-color:#f0c24f;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:50%;
+}
+
+.fools{
+	border-style:inset;
+	border-color:#f0c24f;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:50%;
+}
+
+img{
+	margin-left:auto;
+	margin-right:auto;
+	width:45%;
+	height:auto;
+	float:right;
+}
+
+#Sparkle{
+	width:200px;
+	height:auto;
+	float:left;
+}
+
+.trailer{
+	border-style:groove;
+	border-color:#eda99f;
+	width:50%;
+	height:auto;
+	margin-left:5%;
+	margin-right:auto;
+}
+
+.Error{
+	word-spacing: 100px;
+	color:#0be31d;
+	text-decoration: underline;
+	text-decoration-color:#0800ff;
+}
+
+.title1{
+	font-size:30px;
+	text-align:right;
+	margin-left:auto;
+	margin-right:auto;
+	word-spacing: 50px;
+	text-decoration: overline;
+}
+
+#logo{
+	width:auto;
+	height:90px;
+	float:right;
+}
+
+#logo:hover{
+	transform: scale (1.2);
+}
+
+#logo1{
+	width:auto;
+	height:150px;
+	float:left;
+}
+
+#V-S_sticker{
+	width:auto;
+	height:130px;
+}
+
+#doll{
+	width:45%;
+	height:auto;
+	float:none;
+	transition:0.5s;
+	padding-left:auto;
+	padding-right:auto;
+}
+
+#boom{
+	opacity:0;
+	float:left;
+	position:absolute;
+	transition:0.5s;
+	margin-left:-43%;
+}
+
+.doll{
+	float:left;
+	border-color:#f0c24f;
+	border-style: inset;
+	text-align:center;
+}
+
+#doll:hover{
+	opacity:0.3;
+}
+
+#boom:hover{
+	opacity:1;
+}
+
+.home-link{
+	max-width:50%;
+	float:left;
+	border-style: double;
+	border-color: #eda99f;
+	margin-top: 20px;
+}
+
+.quote{
+	width:50%;
+	height:auto;
+	margin-left:5%;
+	margin-right:auto;
+	border-style: dotted;
+	border-color: #f0c24f;
+	text-align:center;
+}
+
+ol{
+	list-style-type: upper-roman;
+}
+
+ul{
+	list-style-type: square;
+}
+
+#S-sticker{
+	height:30%;
+	width:auto;
+	float:left;
+}
+
+#S-sticker1{
+	height:auto;
+	width:25%;
+	float:right;
+}
+
+#pic{
+	width:38%;
+	height:auto;
+}
+
+#model:hover{
+	height:500px;
+	width:fixed;
+}
+
+a:link {
+  color: #f0c24f;
+}
+a:visited {
+  color: #eda99f;
+}
+a:hover {
+  color: white;
+}
